@@ -83,7 +83,7 @@ const handleComment = async (e) => {
             onChange={(e) => setComment(e.target.value)}
             required
           />
-          <Button type="submit" className="w-full">
+          <Button type="submit" className="w-full bg-[#1e3a8a] hover:bg-[#1a357a] ">
             Post Comment
           </Button>
         </form>

@@ -22,8 +22,7 @@ export default function FollowButton({ profileUser ,userId}) {
     <button
       onClick={handleFollow}
       disabled={isPending || isSelf}
-      className='bg-[#1e3a8a]
-hover:bg-[#1a357a] text-white px-4 py-2 rounded-full disabled:opacity-50 disabled:cursor-not-allowed'
+      className='bg-[#1e3a8a] hover:bg-[#1a357a] text-white px-4 py-2 rounded-full disabled:opacity-50 disabled:cursor-not-allowed'
     >
       {isFollowing ? 'Unfollow' : 'Follow'}
     </button>

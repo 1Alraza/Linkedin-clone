@@ -14,7 +14,9 @@ export default async function UserPage({ params }) {
   const userId = cookieStore.get("user_id")?.value;
 
   try {
+
     const id = params.id;
+    
     data = await getUserByUsername(id);
     if (data) {
       const posts = await getPostsByUserId(data.id);
