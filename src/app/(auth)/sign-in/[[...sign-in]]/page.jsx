@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export default function Page() {
-  const [formState, formAction] = useActionState(SignIn, {});
+  const [formState, formAction,isPending] = useActionState(SignIn, {});
   const router = useRouter();
 
   useEffect(() => {
@@ -69,8 +69,9 @@ export default function Page() {
         <Button
           type="submit"
           className="w-full bg-[#1e3a8a] hover:bg-[#1a357a] text-white"
+          disabled={isPending}
         >
-          Sign In
+          {isPending ? 'Signing in...' : 'Sign In'}
         </Button>
       </form>
 

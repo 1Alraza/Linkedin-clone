@@ -2,7 +2,7 @@ This is a mini LinkedIn-like social platform built as part of an internship assi
 
 ## 🔗 Live Demo
 
-👉 [Sign up | LinkedIn](https://linked-in-psi-ten.vercel.app/sign-in)  
+👉 [Sign up | LinkedIn](https://linkedin-clone-theta-blue.vercel.app/sign-in)  
 
 ---
 
