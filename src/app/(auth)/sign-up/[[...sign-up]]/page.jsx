@@ -120,7 +120,7 @@ export default function Page() {
 
         <Button
         type="submit"
-        className="w-full bg-blue-600 hover:bg-blue-700 text-white"
+        className="w-full bg-[#1e3a8a] hover:bg-[#1a357a] text-white"
         disabled={isPending}
         >
         {isPending ? 'Creating...' : 'Agree & Join'}
